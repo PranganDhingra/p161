@@ -9,7 +9,7 @@ AFRAME.registerComponent("bowling-balls", {
 
         ball.setAttribute("gltf-model", "./models/bowling_ball/scene.gltf");
 
-        ball.setAttribute("scale", { x: 3, y: 3,  z: 3});
+        ball.setAttribute("scale", { x: 3, y: 3,  z: 7});
 
         var cam = document.querySelector("#camera");
 
